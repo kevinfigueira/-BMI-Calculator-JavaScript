@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="text-info">
+            <h1 class="title">Calculator IMC</h1>
+        </div>
+
+        <div class="data_block">
+            <div class="names">
+                <label for="name">
+                    <span class="names-first">Nome:</span>
+                </label>
+                <label for="height">
+                    <span class="names-first">Altura:</span>
+                </label>
+                <label for="weight">
+                    <span class="names-first">Peso:</span>
+                </label>
+            </div>
+
+            <div class="type-input">
+                <input type="text" name="name" id="name">
+                <input type="number" name="height" id="height">
+                <input type="number" name="weight" id="weight">
+            </div>    
+
+        </div>
+
+        <div class="btn-block">
+            <button id="button" class="button">Calcular</button>
+        </div>
+
+        <br>
+
+        <div class="result_block">
+            <div class="results" id="results"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
