@@ -1,6 +1,7 @@
+// Select DOM
 var button = document.querySelector('#button');
 
-
+// Functions
 function calc() {    
     var name = document.getElementById('name').value,
         height = document.getElementById('height').value,
